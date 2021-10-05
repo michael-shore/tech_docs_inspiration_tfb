@@ -1,0 +1,388 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
+
+
+header {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 25px;
+    opacity: 50%;
+}
+
+header.calibri {
+    font-size: 14px;
+}
+
+#link-view-explainer {
+    margin-bottom: 15px;
+}
+
+#buttons-view{
+    margin-top: 20px;
+}
+
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 667px;
+}
+
+body {
+    color: #e9f3f1;
+    background-color: #243c4b;
+    margin: 0px;
+    padding: 30px 160px 30px 160px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.visible-on-desktop {
+    display: none;
+}
+
+.sad-emodji {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.catch22-text {
+    color: #cfd5e4    
+}
+
+h1 {
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+h2 {
+    margin-top: 30px;
+    font-weight: bolder;
+    text-shadow: black;
+}
+
+h2.header-version-picker {
+    margin-top: 10px;
+}
+
+.calibri.warning {
+    font-size: 14px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+
+.badge-tech-complexity.green {
+    color: rgb(148, 236, 189);
+    font-style: bold;
+    text-decoration: overline;
+    
+}
+
+
+.article-add-links {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    opacity: 50%
+}
+
+#found-mistake {
+    margin-top: 30px;
+    opacity: 50%;
+    font-size: 14px;
+}
+
+footer.calibri {
+    font-size: 14px;
+}
+
+.badge-tech-complexity.yellow {
+    color: rgb(236, 234, 148);
+    font-style: bold;
+    text-decoration: overline;
+    
+}
+
+.article-related-articles {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.divider {
+    opacity: 90%;
+    color: #e8fffd;
+    margin: 20px 0px 20px 0px;
+}
+
+#useful-links-margin-reducer {
+    margin-top: 18px;
+}
+
+.internal{
+   color: #da6755;
+   font-style: italic;
+}
+
+a {
+    color: #ffffff;
+    opacity: 100%;
+}
+
+
+.button-one, .button-two, .button-three{
+    cursor: pointer;
+    font-size:24px;
+  }
+
+
+.calibri {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}  
+
+.article-title {
+    margin-top: 40px;
+}
+
+#title-tp {
+    color: #69b9b3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 31.25px;
+    font-size: larger; 
+}
+
+#title-article-name {
+    color: #ffffff    ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+select {
+    color:rgb(230, 230, 230);
+    background-color: #243c4b;
+    border-radius: 2px;
+    border-color: #66b4af;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .btn {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .btn:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+
+
+
+
+.default {
+    padding: 5px 0px 12px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+#link-prepare-docs-forClients{
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+#linkAdditionalFilters {
+    margin-top: 60px;
+    text-decoration: none;
+
+}
+
+
+
+#linkAdditionalFilters:hover {
+    color: rgb(176, 143, 199);
+}
+
+a:hover {
+    color: rgb(176, 143, 199);
+}
+
+h3.header-additional {
+    font-style: italic;
+    opacity: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .visible-on-desktop {
+        display: block;  
+    }
+    .visible-on-mobile {
+        display: none;
+      }
+  }
+
+
+  @media print {
+    .visible-on-desktop {
+        display: block;  
+    }
+  }
+
+.container {
+    box-shadow: none;
+}
+
+body.container {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #d1dad3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.placeholder {
+    color: rgb(241, 171, 241);
+    opacity: 80%;
+}
+
+
+.container {
+    
+
+    max-width: 1000px;
+    width: 300px;
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+
+.switch-holder {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: -8px -8px 15px rgba(33, 88, 84, 0.534),
+                10px 10px 10px rgba(0,0,0, .3),
+                inset 8px 8px 15px rgba(123, 194, 164, 0.739),
+                inset 10px 10px 10px rgba(0,0,0, .3);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.switch-label {
+    width: 150px;
+}
+
+.switch-label i {
+    margin-right: 5px;
+}
+
+.switch-toggle {
+    height: 40px;
+}
+
+.switch-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+}
+
+.switch-toggle input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, 0.24),
+                inset 10px 10px 10px rgba(0,0,0, .25);
+    
+}
+
+.switch-toggle input[type="checkbox"] + label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 45px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #d1dad3;
+    box-shadow: -3px -3px 5px rgb(23, 56, 25),
+                3px 3px 5px rgba(0,0,0, .25);
+    transition: .3s ease-in-out;
+}
+
+.switch-toggle input[type="checkbox"]:checked + label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    background-color: #21907e;
+    box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+                3px 3px 5px #0f5727;
+}
